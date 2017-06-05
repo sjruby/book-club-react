@@ -29,6 +29,10 @@ class SignUp
   let api = 'https://salty-citadel-91716.herokuapp.com/sign-up'
   fetch(api, {
     method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+    },
     body: JSON.stringify({
       email: this.state.email,
       password: this.state.password,
