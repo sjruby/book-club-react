@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-class SignIn extends React.Component {
+class SignUp
+ extends React.Component {
   constructor(props) {
     super(props);
 
@@ -24,6 +25,17 @@ class SignIn extends React.Component {
   }
 
   handleSubmit(event) {
+
+  let api = 'https://salty-citadel-91716.herokuapp.com'
+  fetch(api, {
+    method: 'POST',
+    body: JSON.stringify({
+      email: this.state.email,
+      password: this.state.password,
+      password_confirmation: this.state.password
+    })
+  })
+
   event.preventDefault();
   console.log('Someone tried to login!: ' + this.state.email);
 
@@ -55,4 +67,5 @@ class SignIn extends React.Component {
   }
 }
 ;
-export default SignIn;
+export default SignUp
+;
