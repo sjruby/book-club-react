@@ -26,7 +26,7 @@ class SignUp
 
   handleSubmit(event) {
 
-  let api = 'https://salty-citadel-91716.herokuapp.com'
+  let api = 'https://salty-citadel-91716.herokuapp.com/sign-up'
   fetch(api, {
     method: 'POST',
     body: JSON.stringify({
