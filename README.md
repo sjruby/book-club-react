@@ -1,3 +1,32 @@
+# Bookclub Manager
+The purpose of this app is to keep track of what books you are reading and assigning them to the appropriate book club.
+
+# How does it works
+A user enters books, with a target start and end date.  They are also able to go into the app and update it with the current status for the book.
+
+# User Stories:
+As a user I want to be able to enter books I am reading into the app.
+As a user, I want to to be able to update the status of the book I am reading.
+As a user I want to be able to assign a start date to books I plan to read in the future.
+
+# ERD
+
+A link to the ERD is below:
+
+[Imgur](http://i.imgur.com/vX1mcmn.jpg)
+
+# Wireframe:
+A link to the wire frame can be found below at:
+
+[Imgur](http://i.imgur.com/Oll1GYn.jpg)
+
+# Dependincies
+
+ - react
+ - enzyme for testing react
+
+
+## React Documentation Below - will be deleting it once I've got everything finazlied.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
